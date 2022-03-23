@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  margin-bottom: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.container {
+  display: flex;
+  height: 400px;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.player-score {
+  height: 300px;
+  width: 30%;
+  text-align: center;
+  background-color: rgb(49, 49, 49);
+  border-radius: 2%;
+}
+
+.computer-score {
+  height: 300px;
+  width: 30%;
+  text-align: center;
+  background-color: rgb(49, 49, 49);
+  border-radius: 2%;
+}
+
+h3 {
+  margin: 0 auto;
+  padding-top: 20px;
+  height: 70px;
+  background-color: black;
+  color: white;
+}
+
+.button-container {
+  text-align: center;
+}
+
+.playerSelection, .computerSelection {
+  font-size: 7em;
+}
+
+.winner {
+  color: green;
+}
+
+.loser {
+  color: red;
+}
+
+.draw {
+  color: orange;
+}
+
+
